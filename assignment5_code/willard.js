@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function(req, res) {
-    res.send('Got a GET request')
+    res.send('Got a GET request at willard')
 })
 
 router.post('/', function(req, res) {
-    res.send('got a POST request')
+    res.send('got a POST request at willard')
 })
 
 router.get('/jaxon', function(req, res) {
@@ -14,7 +14,7 @@ router.get('/jaxon', function(req, res) {
 })
 
 router.post('/jaxon', function(req, res) {
-    res.send('Got a GET request for jaxon')
+    res.send('Got a POST request for jaxon')
 })
 
 router.delete('/jaxon', function(req, res) {
@@ -30,7 +30,7 @@ router.get('/cs5820', function(req, res) {
 })
 
 router.post('/cs5820', function(req, res) {
-    res.send('Got a GET request for cs5820')
+    res.send('Got a POST request for cs5820')
 })
 
 router.delete('/cs5820', function(req, res) {
